@@ -1,0 +1,81 @@
+<!DOCTYPE html> 
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <title>A Batalha dos Campeões</title>
+</head>
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <img src="kof2.jpg" alt="arena do kof">
+            <p>Você é um aspirante a lutador no torneio "The King of Fighters". A primeira etapa da competição começa na arena em South Town. Qual lutador você escolherá para começar sua jornada?</p>
+            <button class="btn-proximo" data-proximo="1">Escolher Kyo Kusanagi</button>
+            <button class="btn-proximo" data-proximo="2">Escolher Iori Yagami</button>
+        </div>
+        <div class="passo" id="passo-1">
+            <img src="kyo.jpg" alt="Arena do KoF">
+            <p>Kyo Kusanagi entra na arena com confiança. Ele enfrenta um adversário difícil, mas supera-o com sua habilidade. Qual é o próximo passo?</p>
+            <button class="btn-proximo" data-proximo="3">Lutar contra um adversário mais forte</button>
+            <button class="btn-proximo" data-proximo="4">Treinar para melhorar as habilidades</button>
+        </div>
+        <div class="passo" id="passo-2">
+            <img src="iori.png" alt="Arena do KoF">
+            <p>Iori Yagami entra na arena com uma aura sombria. Ele vence seu oponente com facilidade. Qual é o próximo passo?</p>
+            <button class="btn-proximo" data-proximo="5">Enfrentar um adversário mais forte</button>
+            <button class="btn-proximo" data-proximo="6">Investigar sobre o torneio</button>
+        </div>
+        <div class="passo" id="passo-3">
+            <img src="rugal.jpg" alt="Arena do KoF">
+            <p>Após enfrentar um adversário mais forte, Kyo encontra um antigo pergaminho que o leva a uma nova fase do torneio.</p>
+            <button class="btn-proximo" data-proximo="7">Seguir para o próximo desafio</button>
+        </div>
+
+        <div class="passo" id="passo-4">
+            <img src="kyo3.jpg" alt="Sessão de treino">
+            <p>Kyo decide treinar intensamente e melhora suas habilidades. Agora está mais preparado para enfrentar qualquer adversário.</p>
+            <button class="btn-proximo" data-proximo="7">Seguir para o próximo desafio</button>
+        </div>
+
+        <div class="passo" id="passo-5">
+            <img src="terry.png" alt="Sessão de treino">
+            <p>Iori enfrenta um adversário ainda mais poderoso e descobre que há uma nova rodada do torneio com desafios ainda maiores.</p>
+            <button class="btn-proximo" data-proximo="8">Preparar-se para a nova rodada</button>
+        </div>
+
+        <div class="passo" id="passo-6">
+            <img src="inve2.jpg" alt="Sessão de treino">
+            <p>Iori investiga mais sobre o torneio e descobre segredos sobre os campeões anteriores. Agora ele sabe que precisa de mais preparação.</p>
+            <button class="btn-proximo" data-proximo="8">Preparar-se para a nova rodada</button>
+        </div>
+
+        <div class="passo" id="passo-7">
+            <img src="batalha.png" alt="Arena do KoF">
+            <p>No próximo desafio, Kyo enfrenta novos adversários e se aproxima da final. Ele está quase lá.</p>
+            <button class="btn-proximo" data-proximo="9">Lutar na final</button>
+        </div>
+
+        <div class="passo" id="passo-8">
+            <img src="preparacao2.png" alt="Arena do KoF">
+            <p>Após a preparação, Iori está pronto para a nova rodada e enfrenta adversários ainda mais difíceis. A final está próxima.</p>
+            <button class="btn-proximo" data-proximo="9">Lutar na final</button>
+        </div>
+
+        <div class="passo" id="passo-9">
+            <img src="kyoxiori.jpg" alt="Arena do KoF">
+            <p>Na final, Kyo e Iori se enfrentam em uma batalha épica. A competição está acirrada, mas apenas um pode sair vitorioso.</p>
+            <button class="btn-proximo" data-proximo="10">Ver o resultado da batalha</button>
+        </div>
+
+        <div class="passo" id="passo-10">
+            <img src="final.jpg" alt="Vitória no torneio">
+            <p>Kyo ou Iori emerge vitorioso do torneio "The King of Fighters". A glória e a fama são suas!</p>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
